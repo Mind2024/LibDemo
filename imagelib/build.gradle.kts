@@ -11,7 +11,9 @@ plugins {
 android {
     namespace = "com.example.imagelib"
     compileSdk = 34
-
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.1"
+    }
     defaultConfig {
         minSdk = 24
 
