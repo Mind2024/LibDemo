@@ -48,7 +48,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.Mind2024"
-                artifactId = "image-preview-compose"
+                artifactId = "LibDemo"
                 version = "1.0.0"
             }
         }
